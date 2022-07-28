@@ -1,6 +1,6 @@
 import {View, Pressable, Text, Image, StyleSheet} from "react-native";
 
-import MealDetails from "./MealDetails";
+import MealDetails from "../MealDetails";
 
 function MealItem({title, imageUrl, duration, complexity, affordability, onPress}) {
 
